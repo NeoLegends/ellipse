@@ -1,0 +1,16 @@
+[package]
+name = "ellipse"
+version = "0.1.0"
+authors = ["Moritz Gunz <moritz.gunz@gmail.com>"]
+edition = "2018"
+
+description = "Truncate and ellipse strings in a human-friendly way."
+keywords = ["truncate", "ellipse", "string", "human"]
+categories = ["text-processing", "value-formatting"]
+license = "MIT OR Apache-2.0"
+readme = "README.md"
+
+repository = "https://github.com/NeoLegends/ellipse"
+
+[dependencies]
+unicode-segmentation = "1.2.1"
