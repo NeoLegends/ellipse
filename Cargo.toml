@@ -1,6 +1,6 @@
 [package]
 name = "ellipse"
-version = "0.1.0"
+version = "0.2.0"
 authors = ["Moritz Gunz <moritz.gunz@gmail.com>"]
 edition = "2018"
 
