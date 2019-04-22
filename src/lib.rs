@@ -61,15 +61,15 @@ mod tests {
     }
 
     #[test]
+    fn truncate_to_empty() {
+        assert_eq!(&"Hello, World!".truncate_ellipse(0), "");
+    }
+
+    #[test]
     fn weird_chars() {
         assert_eq!(
             &"🇩🇪🇬🇧🇮🇹🇫🇷".truncate_ellipse(2),
             "🇩🇪🇬🇧..."
         );
-    }
-
-    #[test]
-    fn truncate_to_empty() {
-        assert_eq!(&"Hello, World!".truncate_ellipse(0), "");
     }
 }
