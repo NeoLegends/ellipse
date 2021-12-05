@@ -1,8 +1,8 @@
 [package]
 name = "ellipse"
-version = "0.2.0"
+version = "0.2.1"
 authors = ["Moritz Gunz <moritz.gunz@gmail.com>"]
-edition = "2018"
+edition = "2021"
 
 description = "Truncate and ellipse strings in a human-friendly way."
 keywords = ["truncate", "ellipse", "string", "human"]
@@ -13,4 +13,4 @@ readme = "README.md"
 repository = "https://github.com/NeoLegends/ellipse"
 
 [dependencies]
-unicode-segmentation = "1.2.1"
+unicode-segmentation = "1.8.0"
